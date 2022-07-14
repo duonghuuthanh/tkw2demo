@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo</title>
+        <style>
+            @font-face {
+                font-family: myTHUPHAP;
+                src: url(fonts/TMC-Ong\ Do.TTF);
+            }
+
+            h1 {
+                /* font-family: myTHUPHAP; */
+            }
+
+            body {
+                color: blue;
+                font-family: Arial, Helvetica, sans-serif;
+                /* background-image: url(images/demo.png), url(images/demo.png);
+                background-repeat: no-repeat, no-repeat;
+                background-size: 200px; */
+                /* background-position: left top, right bottom; */
+                /* background-attachment: fixed; */
+                /* background-position: center; */
+            }
+            h2 {
+                color: blue;
+                background-color: brown;
+                width: 30%;
+                border: 3px dashed blue;
+                font-size: 50px;
+                padding: 10px;
+                margin-left: auto;
+                /* margin: 0 auto; */
+            }
+
+            ul.demo {
+                list-style-image: url(images/like.png);
+            }
+
+            table.demo {
+                border-collapse: collapse;
+            }
+
+            table.demo tr:nth-child(even) {
+                background-color: darkblue;
+                color: white;
+            } 
+            table.demo tr:nth-child(odd) {
+                background-color: red;
+                color: gold;
+            }
+
+            table.demo tr:first-child {
+                font-size: 20px;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            table.demo tr:last-child {
+                background-color:aqua;
+            }
+
+            table.demo tr:nth-child(4) {
+                background-color: bisque;
+            }
+
+            table.demo tr:hover {
+                font-size: 20px;
+                background-color: brown;
+            }
+
+            a:link {
+                color:green;
+            }
+            a:visited {
+                color: gold;
+            }
+            a:hover {
+                text-decoration: none;
+            }
+            a:active {
+                background-color: darkblue;
+                color: white;
+            }
+
+            div.test {
+                background-color: lightblue;
+                color:blue;
+                /* width: 300px; */
+                /* height: 200px; */
+                border: 2px solid blue;
+            }
+
+            .go {
+                background-color: darkblue;
+                color: white;
+                padding: 15px;
+                font-size: 30px;
+                right: 10px;
+                bottom: 10px;
+                position: fixed;
+            }
+
+            img.test {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+
+            div.d {
+                display: flex;
+                flex-wrap: wrap;
+                /* flex-direction: column; */
+                height: 450px;
+                background-color: lightblue;
+            }
+
+            div.d > div {
+                width: 15%;
+                margin: 1%;
+                height: 200px;
+                font-size: 40px;
+                font-weight: bold;
+                border: 3px dashed blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="d">
+            <div>A</div>
+            <div style="height: 100px;">B</div>
+            <div>C</div>
+            <div style="height: 150px;">D</div>
+            <div>E</div>
+            <div style="height: 120px;">F</div>
+<div>G</div>
+        </div>
+
+        <h1>TEST</h1>
+        <img class="test" src="images/demo.png" width="300" alt="OU" />
+        <div >
+            
+            <div class="test">
+                Cụ thể, bình quân giá xăng RON 92 (dùng để pha chế xăng E5 RON 92) trên thị trường Singapore là 147,5 USD/thùng, chu kỳ trước là 151,6 USD/thùng. Giá xăng RON 95 cũng tăng lên 154,77 USD/thùng, chu kỳ trước là 158,1 USD/thùng. Như vậy, giá của 2 loại xăng này có xu hướng giảm nhẹ so với kỳ trước.
+            </div>
+        </div>
+       
+        
+            <a class="go" href="https://ou.edu.vn/">GO TO TOP</a>
+        
+        <table class="demo" width="40%" border="1">
+            <tr>
+                <td>STT</td>
+                <td>HO TEN</td>
+                <td>QUE QUAN</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>NGUYEN VAN A</td>
+                <td>TPHCM</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>NGUYEN VAN A</td>
+                <td>TPHCM</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>NGUYEN VAN A</td>
+                <td>TPHCM</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>NGUYEN VAN A</td>
+                <td>TPHCM</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>NGUYEN VAN A</td>
+                <td>TPHCM</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>NGUYEN VAN A</td>
+                <td>TPHCM</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>NGUYEN VAN A</td>
+                <td>TPHCM</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>NGUYEN VAN A</td>
+                <td>TPHCM</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>NGUYEN VAN A</td>
+                <td>TPHCM</td>
+            </tr>
+        </table>
+        <ul class="demo" style="color:red;">
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>D</li>
+            <li>E</li>
+        </ul>
+
+        <h1 style="color: red;">HELLO WORLD</h1>
+        <h2>TEST</h2>
+        <form>
+            <fieldset>
+                <legend>USER INFO</legend>
+        <table>
+            <tr>
+                <td>Textbox</td>
+                <td>
+                    <input type="text" maxlength="5" placeholder="Enter username..." required />
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" readonly placeholder="Enter username..." required />
+                </td>
+            </tr>
+            <tr>
+                <td>Number</td>
+                <td>
+                    <input type="number" min="10" step="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td>
+                    <input type="date" />
+                </td>
+            </tr>
+            <tr>
+                <td>Datetime</td>
+                <td>
+                    <input type="datetime-local" />
+                </td>
+            </tr>
+            <tr>
+                <td>Range</td>
+                <td>
+                    <input type="range" />
+                </td>
+            </tr>
+            <tr>
+                <td>Color</td>
+                <td>
+                    <input type="color" />
+                </td>
+            </tr>
+            <tr>
+                <td>Checkbox</td>
+                <td>
+                    <input type="checkbox" /> VIETNAM
+                    <input type="checkbox" /> THAI LAN
+                    <input type="checkbox" checked /> HOA KY
+                    <input type="checkbox" /> BRAZIN
+                </td>
+            </tr>
+            <tr>
+                <td>Radio</td>
+                <td>
+                    <input type="radio" name="qg" checked /> VIETNAM
+                    <input type="radio" name="qg" /> THAI LAN
+                    <input type="radio" name="qg" /> HOA KY
+                    <input type="radio" name="qg" /> BRAZIN
+                </td>
+            </tr>
+            <tr>
+                <td>Select box</td>
+                <td>
+                    <select>
+                        <optgroup label="CHAU A">
+                            <option>VIETNAM</option>
+                            <option>THAI LAN</option>
+                        </optgroup>
+                        <optgroup label="CHAU MY">
+                            <option selected>HOA KY</option>
+                            <option>BRAZIN</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>List box</td>
+                <td>
+                    <select multiple>
+                        <optgroup label="CHAU A">
+                            <option>VIETNAM</option>
+                            <option>THAI LAN</option>
+                        </optgroup>
+                        <optgroup label="CHAU MY">
+                            <option selected>HOA KY</option>
+                            <option>BRAZIN</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>TextArea</td>
+                <td>
+                    <textarea rows="5" cols="40"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Buttons</td>
+                <td>
+                    <input type="submit" value="SUBMIT" />
+                    <input type="reset" value="RESET" />
+                    <input type="button" value="BUTTON" />
+                    <input type="file" />
+                    <button type="submit">&#9757; BUTTON</button>
+                </td>
+            </tr>
+        </table>
+        </fieldset>
+        </form>
+
+        <table>
+            <tr>
+                <td>Textbox</td>
+                <td>
+                    <input type="text" maxlength="5" placeholder="Enter username..." required />
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" readonly placeholder="Enter username..." required />
+                </td>
+            </tr>
+            <tr>
+                <td>Number</td>
+                <td>
+                    <input type="number" min="10" step="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td>
+                    <input type="date" />
+                </td>
+            </tr>
+            <tr>
+                <td>Datetime</td>
+                <td>
+                    <input type="datetime-local" />
+                </td>
+            </tr>
+            <tr>
+                <td>Range</td>
+                <td>
+                    <input type="range" />
+                </td>
+            </tr>
+            <tr>
+                <td>Color</td>
+                <td>
+                    <input type="color" />
+                </td>
+            </tr>
+            <tr>
+                <td>Checkbox</td>
+                <td>
+                    <input type="checkbox" /> VIETNAM
+                    <input type="checkbox" /> THAI LAN
+                    <input type="checkbox" checked /> HOA KY
+                    <input type="checkbox" /> BRAZIN
+                </td>
+            </tr>
+            <tr>
+                <td>Radio</td>
+                <td>
+                    <input type="radio" name="qg" checked /> VIETNAM
+                    <input type="radio" name="qg" /> THAI LAN
+                    <input type="radio" name="qg" /> HOA KY
+                    <input type="radio" name="qg" /> BRAZIN
+                </td>
+            </tr>
+            <tr>
+                <td>Select box</td>
+                <td>
+                    <select>
+                        <optgroup label="CHAU A">
+                            <option>VIETNAM</option>
+                            <option>THAI LAN</option>
+                        </optgroup>
+                        <optgroup label="CHAU MY">
+                            <option selected>HOA KY</option>
+                            <option>BRAZIN</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>List box</td>
+                <td>
+                    <select multiple>
+                        <optgroup label="CHAU A">
+                            <option>VIETNAM</option>
+                            <option>THAI LAN</option>
+                        </optgroup>
+                        <optgroup label="CHAU MY">
+                            <option selected>HOA KY</option>
+                            <option>BRAZIN</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>TextArea</td>
+                <td>
+                    <textarea rows="5" cols="40"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Buttons</td>
+                <td>
+                    <input type="submit" value="SUBMIT" />
+                    <input type="reset" value="RESET" />
+                    <input type="button" value="BUTTON" />
+                    <input type="file" />
+                    <button type="submit">&#9757; BUTTON</button>
+                </td>
+            </tr>
+        </table>
+        </fieldset>
+        </form>
+        <table>
+            <tr>
+                <td>Textbox</td>
+                <td>
+                    <input type="text" maxlength="5" placeholder="Enter username..." required />
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" readonly placeholder="Enter username..." required />
+                </td>
+            </tr>
+            <tr>
+                <td>Number</td>
+                <td>
+                    <input type="number" min="10" step="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td>
+                    <input type="date" />
+                </td>
+            </tr>
+            <tr>
+                <td>Datetime</td>
+                <td>
+                    <input type="datetime-local" />
+                </td>
+            </tr>
+            <tr>
+                <td>Range</td>
+                <td>
+                    <input type="range" />
+                </td>
+            </tr>
+            <tr>
+                <td>Color</td>
+                <td>
+                    <input type="color" />
+                </td>
+            </tr>
+            <tr>
+                <td>Checkbox</td>
+                <td>
+                    <input type="checkbox" /> VIETNAM
+                    <input type="checkbox" /> THAI LAN
+                    <input type="checkbox" checked /> HOA KY
+                    <input type="checkbox" /> BRAZIN
+                </td>
+            </tr>
+            <tr>
+                <td>Radio</td>
+                <td>
+                    <input type="radio" name="qg" checked /> VIETNAM
+                    <input type="radio" name="qg" /> THAI LAN
+                    <input type="radio" name="qg" /> HOA KY
+                    <input type="radio" name="qg" /> BRAZIN
+                </td>
+            </tr>
+            <tr>
+                <td>Select box</td>
+                <td>
+                    <select>
+                        <optgroup label="CHAU A">
+                            <option>VIETNAM</option>
+                            <option>THAI LAN</option>
+                        </optgroup>
+                        <optgroup label="CHAU MY">
+                            <option selected>HOA KY</option>
+                            <option>BRAZIN</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>List box</td>
+                <td>
+                    <select multiple>
+                        <optgroup label="CHAU A">
+                            <option>VIETNAM</option>
+                            <option>THAI LAN</option>
+                        </optgroup>
+                        <optgroup label="CHAU MY">
+                            <option selected>HOA KY</option>
+                            <option>BRAZIN</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>TextArea</td>
+                <td>
+                    <textarea rows="5" cols="40"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Buttons</td>
+                <td>
+                    <input type="submit" value="SUBMIT" />
+                    <input type="reset" value="RESET" />
+                    <input type="button" value="BUTTON" />
+                    <input type="file" />
+                    <button type="submit">&#9757; BUTTON</button>
+                </td>
+            </tr>
+        </table>
+        </fieldset>
+        </form>
+        
+    </body>
+</html>

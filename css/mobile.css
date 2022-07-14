@@ -1,0 +1,31 @@
+html {
+    font-size: 20px;
+   }
+    body {
+        background-color: lightblue;
+        color: darkblue;
+    }
+
+    div.product {
+        width: 100%;
+    }
+
+    div.product > div {
+        background-color: antiquewhite;
+    }
+
+aside.ads {
+    display: none;
+}
+
+header {
+    flex-direction: column;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+}
