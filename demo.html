@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body id="main" onload="init()">
+    <a href="javascipt:;" class="go">GO TO TOP</a>
+    <div>
+      <input type="text" id="color" placeholder="ten mau..." />
+      <div id="btncolors">
+        <button style="background-color: green"></button>
+        <button style="background-color: gold"></button>
+      </div>
+    </div>
+    <button id="show">Show</button>
+    <button id="hide">Hide</button>
+    <button id="animate">Animate</button>
+    <div>
+      <img id="ball2" src="images/ball.png" />
+    </div>
+
+    <h1 id="clock">00/00/0000 00:00:00</h1>
+    <input type="button" onclick="play()" value="Play" />
+    <input type="button" onclick="stop()" value="Stop" />
+    <div id="myBall">
+      <img id="ball" src="images/ball.png" />
+    </div>
+    <input
+      onclick="doiMauAnh('Black_')"
+      type="button"
+      style="background-color: black"
+    />
+    <input
+      onclick="doiMauAnh('Gold_')"
+      type="button"
+      style="background-color: gold"
+    />
+    <input
+      onclick="doiMauAnh('Blue_')"
+      type="button"
+      style="background-color: blue"
+    />
+    <input
+      onclick="doiMauAnh('Silver_')"
+      type="button"
+      style="background-color: silver"
+    />
+    <div class="gallery">
+      <img id="mainImg" src="images/galaxys8/Blue_1.jpg" />
+      <div class="thumbnail">
+        <div>
+          <img src="images/galaxys8/Blue_1.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_2.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_3.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_4.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_5.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <img id="mainImg" src="images/galaxys8/Blue_1.jpg" />
+      <div class="thumbnail">
+        <div>
+          <img src="images/galaxys8/Blue_1.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_2.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_3.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_4.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_5.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="gallery">
+      <img id="mainImg" src="images/galaxys8/Blue_1.jpg" />
+      <div class="thumbnail">
+        <div>
+          <img src="images/galaxys8/Blue_1.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_2.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_3.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_4.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_5.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="gallery">
+      <img id="mainImg" src="images/galaxys8/Blue_1.jpg" />
+      <div class="thumbnail">
+        <div>
+          <img src="images/galaxys8/Blue_1.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_2.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_3.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_4.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_5.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="gallery">
+      <img id="mainImg" src="images/galaxys8/Blue_1.jpg" />
+      <div class="thumbnail">
+        <div>
+          <img src="images/galaxys8/Blue_1.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_2.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_3.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_4.jpg" alt="" />
+        </div>
+        <div>
+          <img src="images/galaxys8/Blue_5.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <input
+      type="text"
+      onchange="doiMauNen()"
+      id="color"
+      placeholder="Nhap ten mau..."
+    />
+
+    <h1>ax + b = 0</h1>
+
+    <table>
+      <tr>
+        <td>a =</td>
+        <td>
+          <input type="number" id="aId" />
+        </td>
+      </tr>
+      <tr>
+        <td>b =</td>
+        <td>
+          <input type="number" id="bId" />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" id="kq" style="color: blue">...</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="button" onclick="giai()" value="GIAI" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
